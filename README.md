@@ -1,70 +1,70 @@
-# Getting Started with Create React App
+# Projeto de Estudos com React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Sobre o Projeto
 
-## Available Scripts
+Esse projeto foi desenvolvido com o objetivo de aprimorar meus conhecimentos em
+React e trabalhar com as principais hooks dessa biblioteca: `useEffect`,
+`useReducer`, `useContext` e `useState`. O objetivo principal do projeto foi
+criar um botão com contador que realizava um fetch de textos do
+[JSONPlaceholder](https://jsonplaceholder.typicode.com/) e sincronizar as
+alterações de estado entre as diferentes hooks.
 
-In the project directory, you can run:
+## Como Rodar o Projeto
+
+Para rodar o projeto, basta clonar o repositório em sua máquina local e, em
+seguida, executar os seguintes comandos na pasta raiz do projeto:
+
+### `npm install`
+
+Esse comando irá instalar todas as dependências necessárias para rodar o
+projeto.
 
 ### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Esse comando irá rodar o projeto em modo de desenvolvimento. Basta abrir
+[http://localhost:3000](http://localhost:3000) em seu navegador para visualizar
+o projeto.
 
 ### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Esse comando irá executar todos os testes unitários desenvolvidos para o
+projeto.
 
 ### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Esse comando irá criar uma versão otimizada do projeto para produção, na pasta
+`build`.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Tecnologias Utilizadas
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Esse projeto foi desenvolvido utilizando as seguintes tecnologias:
 
-### `npm run eject`
+- React
+- HTML
+- CSS
+- JavaScript
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Hooks Utilizadas
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Esse projeto utilizou as seguintes hooks do React:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- `useEffect`: utilizada para realizar a chamada ao JSONPlaceholder ao montar o
+  componente
+- `useReducer`: utilizada para gerenciar o estado do contador
+- `useState`: utilizada para gerenciar o estado do texto recebido do
+  JSONPlaceholder
+- `useContext`: utilizada para passar o estado do contador entre componentes
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Bibliotecas Externas
 
-## Learn More
+Esse projeto utilizou a seguinte biblioteca externa:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- `node-fetch`: utilizada para realizar as chamadas ao JSONPlaceholder
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Considerações Finais
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Esse projeto foi desenvolvido com o objetivo de aprimorar meus conhecimentos em
+React e aprofundar meu entendimento sobre as principais hooks dessa biblioteca.
+Foi uma excelente oportunidade de aplicar meus conhecimentos em um projeto real
+e desafiador. Agradeço por ter tido a chance de desenvolvê-lo e espero que seja
+útil para quem o utilizar como referência.
